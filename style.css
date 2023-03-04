@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Hammersmith One', sans-serif;
 }
 h1{
@@ -6,6 +7,9 @@ h1{
 }
 .name-color{
     color: orange;
+}
+p{
+    color: gray;
 }
 .half-size{
     width: 40%;
@@ -15,4 +19,51 @@ h1{
 }
 .half-size img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+}
+section{
+    height: 500px;
+    background-repeat:no-repeat ;
+    padding-bottom: 100px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(50deg, lightsalmon, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+}
+.dream-area{
+    background-image: url(image/dream-bg.png);
+    background-position: right;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-position: left;
+}
+.ex-color{
+    color: orange
+}
+#pro{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, salmon, tomato);
+    border-image-slice: 1;
+}
+#noob{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: black;
 }
